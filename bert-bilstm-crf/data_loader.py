@@ -17,7 +17,7 @@ class NerDataset(Dataset):
 
     def __getitem__(self, item):
         text = self.data[item]["text"]
-        labels = self.data[item]["labels"]
+        labels = self.data[item]["label"]
         if len(text) > self.max_seq_len - 2:
             text = text[:self.max_seq_len - 2]
             labels = labels[:self.max_seq_len - 2]

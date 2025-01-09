@@ -2,7 +2,8 @@ import os
 import json
 import torch
 import numpy as np
-
+import warnings
+warnings.filterwarnings('ignore')
 from config import NerConfig
 from model import BertNer
 from data_loader import NerDataset
