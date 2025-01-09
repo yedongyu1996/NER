@@ -1,0 +1,33 @@
+# pytorch pretrained model
+
+# saved model
+*.pt
+*.pkl
+*.t7
+*.pth
+*.bin
+*.jpg
+*.jpeg
+*.png
+*.xml
+*.iml
+*.patch
+
+
+
+/**/*/model_results/**
+/**/*/caches/**
+/**/*/checkpoint/**
+/**/*/other_language/**
+
+# log
+/**/*/logs
+
+# data
+data/**/*.json
+
+requirements.txt
+
+readme.md
+
+help.txt
